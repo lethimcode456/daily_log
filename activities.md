@@ -15,3 +15,6 @@ This file tracks daily activities and progress updates.
 
 *This file will be automatically updated with daily activities and progress notes.*
 
+### Notes for Sunday
+- documentation in progress
+- code review
