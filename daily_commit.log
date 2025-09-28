@@ -2,3 +2,10 @@
 2025-09-28 17:09:01,882 - ERROR - Not a git repository: E:\daily_log
 2025-09-28 17:09:14,716 - ERROR - Not a git repository: E:\daily_log
 2025-09-28 17:09:21,675 - ERROR - Not a git repository: E:\daily_log
+2025-09-28 17:12:51,536 - INFO - Repository validated: E:\daily_log
+2025-09-28 17:12:51,536 - INFO - Starting daily commit automation...
+2025-09-28 17:12:51,537 - INFO - Selected files to update: ['daily_log.md', 'activities.md']
+2025-09-28 17:12:51,538 - INFO - Updated file: daily_log.md
+2025-09-28 17:12:51,539 - INFO - Updated file: activities.md
+2025-09-28 17:12:51,751 - INFO - Committed: Daily update: 2025-09-28
+2025-09-28 17:12:53,577 - INFO - Successfully completed daily automation. Updated: ['daily_log.md', 'activities.md']
