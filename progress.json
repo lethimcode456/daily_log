@@ -1,51 +1,12 @@
 {
-  "project_name": "Daily Commit Automation",
-  "description": "Automated daily commits with realistic variations",
-  "last_modified": "2024-01-15T10:00:00",
-  "total_entries": 1,
-  "daily_updates": {
-    "2024-01-15": {
-      "timestamp": "2024-01-15T10:00:00",
-      "activity": "initialization",
-      "status": "completed",
-      "notes": "Script setup and configuration",
-      "emoji": "🚀"
-    }
-  }
-}
-
-{
-  "project_name": "Daily Commit Automation",
-  "description": "Automated daily commits with realistic variations",
-  "last_modified": "2025-09-29T21:48:02.274687",
-  "total_entries": 2,
-  "daily_updates": {
-    "2024-01-15": {
-      "timestamp": "2024-01-15T10:00:00",
-      "activity": "initialization",
-      "status": "completed",
-      "notes": "Script setup and configuration",
-      "emoji": "\u00f0\u0178\u0161\u20ac"
-    },
+  "entries": {
     "2025-09-29": {
-      "timestamp": "2025-09-29T21:48:02.274687",
-      "activity": "bug fixes",
-      "status": "in_progress",
-      "notes": "Quick update",
-      "emoji": "\u26a1"
-    }
-  }
-}
-{
-  "daily_updates": {
-    "2025-09-29": {
-      "timestamp": "2025-09-29T21:50:38.036489",
-      "activity": "documentation",
-      "status": "planned",
-      "notes": "Minor changes",
-      "emoji": "\ud83d\udcda"
+      "timestamp": "2025-09-29T21:53:51.175409",
+      "activity": "planning",
+      "status": "completed",
+      "emoji": "\ud83d\udd25"
     }
   },
-  "last_modified": "2025-09-29T21:50:38.036489",
+  "last_updated": "2025-09-29T21:53:51.175409",
   "total_entries": 1
 }
