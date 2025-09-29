@@ -58,7 +58,15 @@ class DailyCommit:
         if not self.repo_path.exists() or not (self.repo_path / ".git").exists():
             print(f"❌ Invalid repo: {self.repo_path}")
             sys.exit(1)
-            
+
+        def pull_latest(self) -> bool:
+        """Pull latest changes from remote before making updates"""
+        print("⬇️  Pulling latest changes...")
+        if not self.run_git(['git', 'pull', REMOTE_NAME, GIT_BRANCH]):
+            print("❌ Failed to pull latest changes")
+            return False
+        return True
+
     def run_git(self, cmd: List[str]) -> bool:
         """Execute git command"""
         try:
@@ -217,9 +225,13 @@ class DailyCommit:
         print(f"✅ Committed: {commit_msg}")
         return True
         
-    def run(self):
+        def run(self):
         """Main execution"""
         print("🔄 Running daily commit automation...")
+
+        # Always pull before updating to avoid conflicts
+        if not self.pull_latest():
+            return False
         
         # Select and update files
         selected_files = self.select_files_to_update()
@@ -240,7 +252,6 @@ class DailyCommit:
             print(f"✅ Success! Updated: {', '.join(updated_files)}")
         
         return success
-
 # =============================================================================
 # EXECUTION
 # =============================================================================
