@@ -153,3 +153,6 @@ That's it! Set it up once and forget about it. Your GitHub activity will stay co
 
 - cleanup completed at 17:12
 ### Thursday Notes
+
+### Friday Notes
+- learning completed at 17:51
