@@ -189,3 +189,6 @@ That's it! Set it up once and forget about it. Your GitHub activity will stay co
 
 ### Saturday Notes
 - ⚡ Progress update
+
+## November 02 Update
+### Sunday Notes
