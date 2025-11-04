@@ -39,3 +39,6 @@ This file will be updated daily with random notes and activities.
 
 [2025-10-30 19:52] learning - update
 [2025-10-30 19:52] planning - update
+
+[2025-11-04 21:09] refactoring - update
+[2025-11-04 21:09] documentation - update
