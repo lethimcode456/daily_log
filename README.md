@@ -198,3 +198,6 @@ That's it! Set it up once and forget about it. Your GitHub activity will stay co
 
 ## November 06 Update
 ### Thursday Notes
+
+- 🔥 Progress update
+## November 09 Update
